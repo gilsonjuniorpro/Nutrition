@@ -1,4 +1,4 @@
-package nutrition.ca
+package nutrition.ca.components
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -7,6 +7,7 @@ import android.util.AttributeSet
 import android.util.DisplayMetrics
 import android.util.TypedValue
 import android.view.View
+import nutrition.ca.R
 
 class CustomProgressBar : View {
 
@@ -27,7 +28,9 @@ class CustomProgressBar : View {
         context,
         attrs
     ) {
-        var typedArray: TypedArray = context!!.obtainStyledAttributes(attrs, R.styleable.CustomProgressBar)
+        var typedArray: TypedArray = context!!.obtainStyledAttributes(attrs,
+            R.styleable.CustomProgressBar
+        )
 
         progressBarValue = typedArray.getInt(R.styleable.CustomProgressBar_my_progress, 0)
         progressBarColor = typedArray.getColor(R.styleable.CustomProgressBar_my_progress_color, 0)

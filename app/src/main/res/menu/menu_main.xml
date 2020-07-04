@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nutrition.ca.ui.MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_calories"
+        android:title="@string/calories"
+        android:icon="@drawable/ic_cake"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_carbohydrate"
+        android:title="@string/carbohydrates"
+        android:icon="@drawable/ic_fastfood"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_protein"
+        android:title="@string/proteins"
+        android:icon="@drawable/ic_restaurant"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>
