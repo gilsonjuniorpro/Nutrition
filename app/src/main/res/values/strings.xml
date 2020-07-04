@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nutrition</string>
+    <string name="calories">calorias</string>
+    <string name="proteinas">proteinas</string>
+    <string name="carboidratos">carboidratos</string>
+    <string name="default_value">0/0</string>
+</resources>
