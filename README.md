@@ -1,7 +1,7 @@
 # Nutrition
 
 ### **Overview - About this project**
-Simple project using **viewTypes** to handle different types of Views
+Simple project using to handle my CustomView
 
 
 ### 📷 How is this App
@@ -12,7 +12,3 @@ Simple project using **viewTypes** to handle different types of Views
 ### 💻Technology
 - [Kotlin](https://kotlinlang.org/)
 
-### Libraries
-```bash
-    implementation 'com.google.android.material:material:1.1.0'
- ```
