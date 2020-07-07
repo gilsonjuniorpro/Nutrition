@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccent">#fdbe3b</color>
+    <color name="colorBackground">#2f2d2e</color>
+    <color name="colorProgressBarBackground">#7b7b7b</color>
+    <color name="colorBackgroundCalorie">#fdbe3b</color>
+    <color name="colorBackgroundProtein">#3a52fc</color>
+    <color name="colorBackgroundCarbohydrate">#ff4842</color>
+    <color name="colorTextValues">#7b7b7b</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSearchIcon">#dbdbdb</color>
+    <color name="colorTextHint">#7b7b7b</color>
+
+    <color name="colorIcons">#a4a4a4</color>
+    <color name="colorTextSubtitle">#cecece</color>
+    <color name="colorDefaultNoteColor">#333333</color>
+    <color name="colorNoteSubtitleText">#fafafa</color>
+    <color name="colorMiscellaneousBackground">#1f1f1f</color>
+
+    <color name="colorNoteColor3">#ff4842</color>
+    <color name="colorNoteColor4">#3a52fc</color>
+    <color name="colorNoteColor5">#000000</color>
+    <color name="colorDelete">#ff4842</color>
+    <color name="colorSearchBackground">#333333</color>
+    <color name="colorLoadingBg">#FFFDE7</color>
+
+    <color name="colorBackgroundOnDevDarker">#1d5f6d</color>
+    <color name="colorBackgroundOnDevLighter">#c3eceb</color>
+    <color name="colorTextOnDevDarker">#444444</color>
+    <color name="colorTextOnDevLighter">#FFFFFF</color>
 </resources>

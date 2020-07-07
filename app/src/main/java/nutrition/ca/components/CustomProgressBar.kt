@@ -11,7 +11,7 @@ import nutrition.ca.R
 
 class CustomProgressBar : View {
 
-    private val stroke = 40.0f
+    private val stroke = 35.0f
     private var backgroundArc:RectF = RectF()
     private var bagPaint: Paint = Paint()
 
@@ -55,7 +55,7 @@ class CustomProgressBar : View {
 
         bagPaint.color = progressBarBgColor
         bagPaint.style = Paint.Style.STROKE
-        bagPaint.strokeWidth = 60.0f
+        bagPaint.strokeWidth = 70.0f
         bagPaint.isAntiAlias = true
 
         canvas?.drawArc(backgroundArc, 0.0f, 360.0f, false, bagPaint)
